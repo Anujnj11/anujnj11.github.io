@@ -1,0 +1,24 @@
+{
+  "name": "anuj_gupta_resume",
+  "version": "1.0.0",
+  "description": "Anuj resume, include all info ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anujnj11/anuj_gupta.github.io.git"
+  },
+  "keywords": [
+    "AnujGupta",
+    "MEAN",
+    "MERN"
+  ],
+  "author": "Anuj Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anujnj11/anuj_gupta.github.io/issues"
+  },
+  "homepage": "https://github.com/Anujnj11/anuj_gupta.github.io#readme"
+}
