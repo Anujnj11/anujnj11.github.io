@@ -150,6 +150,43 @@ b, strong {
 }
 
 
+
+/* .myaccordion { */
+  /* max-width: 500px; */
+  /* box-shadow: 0 0 1px rgba(0,0,0,0.1); */
+/* } */
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #EDEFF0;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 18px;
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+
+
 @keyframes BottomTotop {
   0% {
     opacity: 0;
@@ -326,10 +363,19 @@ b, strong {
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
+.dark-mode span,
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
 }
 
+.dark-mode .navbar-toggler .navbar-toggler-icon{
+  background-color: #f2f2f2;
+}
+
+.dark-mode p,
+.dark-mode .myaccordion .btn{
+  color: #f2f2f2;
+}
 .dark-mode .nav-link span{
   color: #ffffff;
 }
@@ -337,6 +383,12 @@ b, strong {
 .dark-mode .navbar-collapse{
   background: transparent;
 }
+
+.dark-mode .card {
+  background-color: transparent;
+}
+
+
 
 .timeline-wrapper {
   position: relative;

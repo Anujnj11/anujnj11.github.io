@@ -20,6 +20,13 @@ let isDarkMode = false;
     nav: true
   });
 
+  $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
+    $(e.target)
+      .prev()
+      .find("i:last-child");
+  });
+
+
   // SMOOTHSCROLL
   $(function () {
     $('.nav-link, .custom-btn-link').on('click', function (event) {
