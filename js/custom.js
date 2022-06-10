@@ -16,6 +16,8 @@ let isDarkMode = false;
   $('.owl-carousel').owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
     margin: 10,
     nav: true
   });
@@ -38,5 +40,6 @@ let isDarkMode = false;
     });
   });
 
+  $('[data-toggle="tooltip"]').tooltip()
 
 })(jQuery);
