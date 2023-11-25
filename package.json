@@ -1,24 +1,29 @@
 {
-  "name": "anuj_gupta_resume",
-  "version": "1.0.0",
-  "description": "Anuj resume, include all info ",
-  "main": "index.js",
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Anujnj11/anuj_gupta.github.io.git"
+  "dependencies": {
+    "framer-motion": "^10.16.4",
+    "next": "14.0.1",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-dom": "^18"
   },
-  "keywords": [
-    "AnujGupta",
-    "MEAN",
-    "MERN"
-  ],
-  "author": "Anuj Gupta",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Anujnj11/anuj_gupta.github.io/issues"
-  },
-  "homepage": "https://github.com/Anujnj11/anuj_gupta.github.io#readme"
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
 }
