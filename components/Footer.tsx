@@ -8,12 +8,8 @@ export default function Footer() {
                     <span>©</span><span>2023&nbsp;&nbsp;–&nbsp;&nbsp;Present</span><span>Anuj Gupta.</span>
                 </div>
                 <nav className="-order-1 lg:order-1 flex flex-wrap justify-center font-medium">
-                    <a className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3" href="/projects/">Projects</a>
-                    <a className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3" href="/blog/">Blog</a>
-                    <a className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3" href="/talks/">Talks</a>
-                    <a className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3" href="/store/">Store</a>
-                    <a href="https://slides.akashhamirwasia.com" target="_blank" className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3">Slides</a>
-                    <a className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3" href="/contact/">Contact</a>
+                    <a className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3" href="#projects">Projects</a>
+                    <a className="hover:text-sky-400 hover:underline underline-offset-4 transition px-3.5 py-3" target='_blank' href="https://www.linkedin.com/in/anuj-gupta--/">Contact</a>
                 </nav></div>
         </footer>
     )
