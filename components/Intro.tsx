@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Intro() {
     return (
-        <section className='relative min-h-[110vh] md:min-h-[120vh] flex flex-col lg:flex-row items-start lg:items-center lg:justify-between pt-10 container mx-auto px-8 xl:px-32 overflow-x-hidden'>
+        <section className='relative min-h-[110vh] md:min-h-[140vh] flex flex-col lg:flex-row items-start lg:items-center lg:justify-between pt-10 container mx-auto px-8 xl:px-32 overflow-x-hidden'>
             <div className='max-w-2xl'>
                 <h1 className="mt-2 font-bold tracking-tight text-gray-100 text-4xl md:text-5xl leading-tight md:leading-tight">
                     Hey there, I’m <br />
