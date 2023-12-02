@@ -66,7 +66,7 @@ export default function Project() {
   return (
     <div className="container mx-auto px-8 2xl:px-32 mt-32" id="projects">
 
-      <h2 className="text-3xl font-semibold tracking-tight leading-normal">Personal projects I&lsquo;m the most proud of</h2>
+      <h2 className="text-3xl font-semibold tracking-tight mt-32 leading-normal">Personal projects I&lsquo;m the most proud of</h2>
 
       <p className="mt-6 space-y-4 tracking-wide leading-relaxed text-gray-400 font-medium max-w-2xl">
         I enjoy developing things that address issues. I take pleasure in viewing things through the eyes of the end user and working backward to create interesting experiences.

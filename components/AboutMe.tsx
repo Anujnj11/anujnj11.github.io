@@ -70,7 +70,7 @@ export default function AboutMe() {
     )
 
     return (
-        <section className='container flex flex-col gap-8 mx-auto px-8 2xl:px-32 mt-28'>
+        <section className='container flex flex-col gap-8 mx-auto px-8 2xl:px-32 mt-20'>
             <div className='flex flex-col lg:flex-row gap-8'>
                 <div className='bg-gray-800/40 flex-1 ring-1 ring-inset ring-gray-700/30 p-8 rounded-2xl relative'>
                     <div className="absolute inset-0 bg-dots fade-y opacity-70"></div>
