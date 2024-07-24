@@ -1,43 +1,52 @@
 import React from 'react'
 import Image from 'next/image'
+import { calculateInYears } from './Utils';
 
 const allCompany = [
     {
+        name: "Malible",
+        role: "Sr Software Developer",
+        from: "March 2024",
+        to: "Present",
+        logo: "/malible.svg",
+        link: "https://www.malible.com/"
+    },
+    {
         name: "Heady",
         role: "Staff Engineer",
-        from: "Jan 2021",
-        to: "Present",
+        from: "January 2021",
+        to: "February 2024",
         logo: "/heady.webp",
         link: "https://www.heady.io/"
     },
     {
         name: "Heady",
         role: "Software Developer",
-        from: "Apr 2021",
-        to: "Dec 2022",
+        from: "April 2021",
+        to: "December 2022",
         logo: "/heady.webp",
         link: "https://www.heady.io/"
     },
     {
         name: "Tavaga",
         role: "Sr. Software Developer",
-        from: "Oct 2018",
-        to: "Mar 2021",
+        from: "October 2018",
+        to: "March 2021",
         logo: "/tavaga.webp",
         link: "https://www.tavaga.com/"
     },
     {
         name: "5Paisa",
         role: "Software Developer",
-        from: "Oct 2016",
-        to: "Mar 2018",
+        from: "October 2016",
+        to: "March 2018",
         logo: "/5paisa.png",
         link: "https://www.5paisa.com/"
     }
 ]
 
-
-const skills = ["Node JS", "Rest API Development", "Nest JS", "MicroServices", "MongoDB", "MySQL", "Docker", "TDD", "BDD", "K8", "AWS", "Angular 10+", "Next", "Chrome Extension", "Cucumber JS", "Jest"];
+const skills = ["Node JS", "Rest API Development", "Nest JS", "MicroServices", "MongoDB", "MySQL", "Docker", "TDD", "BDD", "K8", "AWS", "Angular 10+", "Next", "Chrome Extension", "Cucumber JS", "Jest", "K8", "Chevrotain Compiler Builder"];
+const dob = new Date("02-08-1994").getTime();
 
 export default function AboutMe() {
 
@@ -77,7 +86,7 @@ export default function AboutMe() {
                     <div className="relative">
                         <h2 className="text-2xl font-semibold tracking-tight">About me</h2>
                         <div className="mt-6 space-y-4 tracking-wide leading-relaxed text-gray-400 font-medium">
-                            <p>Hey! I&lsquo;m Anuj Gupta, a 27-year-old creative who enjoys making products using coding.</p>
+                            <p>Hey! I&lsquo;m Anuj Gupta, a {calculateInYears(dob)}-year-old creative who enjoys making products using coding.</p>
 
                             <p>Since I was a youngster, I&lsquo;ve been fascinated by how things function. This sparked my interest in programming and computer science. I tried building a script to automate a repetitious activity when I was 13, and it made me feel like a superhero 🦸‍♂️!</p>
 
