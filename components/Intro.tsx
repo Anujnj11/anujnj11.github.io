@@ -6,7 +6,7 @@ export default function Intro() {
     const careerStartedAt = new Date("10-10-2016").getTime();
 
     return (
-        <section className='relative min-h-[120vh] flex flex-col lg:flex-row items-start lg:items-center lg:justify-between pt-10 container mx-auto px-8 xl:px-32 xl:min-h-[50vh] overflow-hidden'>
+        <section className='relative min-h-[130vh] flex flex-col lg:flex-row items-start lg:items-center lg:justify-between pt-10 container mx-auto px-8 xl:px-32 xl:min-h-[50vh] overflow-hidden'>
             <div className='max-w-2xl'>
                 <h1 className="mt-2 font-bold tracking-tight text-gray-100 text-4xl md:text-5xl leading-tight md:leading-tight">
                     Hey there, I’m <br />
