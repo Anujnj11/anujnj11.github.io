@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className='scroll-smooth' suppressHydrationWarning>
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white">
-        <ThemeProviders>
+        {/* <ThemeProviders>
           <SectionContainer>
             <div className="flex h-screen flex-col justify-between">
               <Header />
@@ -42,7 +42,7 @@ export default function RootLayout({
               fjs.parentNode.insertBefore(js, fjs);
             })(window, document, 'script', 'https://rdcdn.com/rtjs?aid=30724', false);
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   )
